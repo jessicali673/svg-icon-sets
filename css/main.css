@@ -6,12 +6,15 @@ html {
   text-size-adjust: 100%;
   font-family: Overpass, sans-serif;
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
-  height: 100%;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 h1 {
